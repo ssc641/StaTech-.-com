@@ -181,3 +181,29 @@ nav {
     }
 }
 
+/* Fix for Mission Section */
+.mission-preview {
+    background: var(--dark-blue);
+    color: var(--white);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.mission-preview h2 { color: var(--white); }
+
+.secondary-btn {
+    display: inline-block;
+    margin-top: 20px;
+    color: var(--white);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Ensure the logo is never too big */
+.logo-img {
+    max-height: 45px;
+    width: auto;
+    display: block;
+}
+
+
