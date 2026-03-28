@@ -8,14 +8,35 @@
 </head>
 <body>
     <nav>
-        <div class="logo">StaTech</div>
-        <div class="nav-links">
-            <a href="home.html">Home</a>
+    <div class="nav-container">
+        <a href="index.html">
+            <img src="ssc.png" alt="StaTech Logo" class="logo-img">
+        </a>
+
+        <div class="nav-links desktop-nav">
+            <a href="index.html">Home</a>
             <a href="products.html">Packages</a>
             <a href="gallery.html">Portfolio</a>
             <a href="victory.html" class="victory-btn">Victory Life</a>
         </div>
-    </nav>
+
+        <div class="mobile-menu-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</nav>
+
+<div id="side-menu" class="side-nav">
+    <a href="javascript:void(0)" class="close-btn" onclick="toggleMenu()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="products.html">Packages</a>
+    <a href="gallery.html">Portfolio</a>
+    <hr style="border: 0.5px solid #eee; margin: 10px 30px;">
+    <a href="victory.html" style="color: #007bff;">Victory Life</a>
+</div>
+
 
     <header class="hero">
         <h1>Modern Digital Solutions</h1>
